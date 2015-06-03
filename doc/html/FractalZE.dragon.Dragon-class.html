@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>FractalZE.dragon.Dragon</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="FractalZE-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="FractalZE-module.html">Package&nbsp;FractalZE</a> ::
+        <a href="FractalZE.dragon-module.html">Module&nbsp;dragon</a> ::
+        Class&nbsp;Dragon
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="FractalZE.dragon.Dragon-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Dragon</h1><p class="nomargin-top"><span class="codelink"><a href="FractalZE.dragon-pysrc.html#Dragon">source&nbsp;code</a></span></p>
+<center>
+<center>  <map id="uml_class_diagram_for_fractalz_3" name="uml_class_diagram_for_fractalz_3">
+<area shape="rect" id="node5" href="FractalZE.dragon.Dragon-class.html#__init__" title="FractalZE.dragon.Dragon.__init__" alt="" coords="212,116,335,135"/>
+<area shape="rect" id="node5" href="FractalZE.dragon.Dragon-class.html#lindenmayer" title="Devuelve el fractal del drag&#243;n expresado en L&#45;System" alt="" coords="212,135,335,153"/>
+<area shape="rect" id="node5" href="FractalZE.dragon.Dragon-class.html#getWidth" title="FractalZE.dragon.Dragon.getWidth" alt="" coords="212,153,335,172"/>
+<area shape="rect" id="node5" href="FractalZE.dragon.Dragon-class.html#getHeight" title="FractalZE.dragon.Dragon.getHeight" alt="" coords="212,172,335,191"/>
+<area shape="rect" id="node1" href="FractalZE.dragon.Dragon-class.html" title="FractalZE.dragon.Dragon" alt="" coords="200,83,347,197"/>
+<area shape="rect" id="node6" href="FractalZE.fractal.Fractal-class.html#graph" title="Grafica el fractal." alt="" coords="17,39,529,57"/>
+<area shape="rect" id="node2" href="FractalZE.fractal.Fractal-class.html" title="FractalZE.fractal.Fractal" alt="" coords="5,6,541,63"/>
+</map>
+  <img src="uml_class_diagram_for_fractalz_3.gif" alt='' usemap="#uml_class_diagram_for_fractalz_3" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Instance Methods</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.dragon.Dragon-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">l</span>=<span class="summary-sig-default">1</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.dragon-pysrc.html#Dragon.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">string
+      <p>Algoritmo en L-System.</p>
+      <ul>
+        <li>
+          variables: X Y
+        </li>
+        <li>
+          constantes: F + -
+        </li>
+        <li>
+          axioma: FX
+        </li>
+        <li>
+          reglas:
+          <ol start="1">
+            <li>
+              X -&gt; X+YF+
+            </li>
+            <li>
+              Y -&gt; -FX-Y
+            </li>
+          </ol>
+        </li>
+      </ul>
+      <p>Interpretacion.</p>
+      <ol start="1">
+        <li>
+          Una F significa dibujar
+        </li>
+        <li>
+          Un - significa girar a la izquierda 90 grados
+        </li>
+      </ol>
+      <ol start="2">
+        <li>
+          Un + significa girar a la derecha 90 grados
+        </li>
+      </ol></span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.dragon.Dragon-class.html#lindenmayer" class="summary-sig-name">lindenmayer</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Devuelve el fractal del drag&#243;n expresado en L-System</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.dragon-pysrc.html#Dragon.lindenmayer">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="getWidth"></a><span class="summary-sig-name">getWidth</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.dragon-pysrc.html#Dragon.getWidth">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="getHeight"></a><span class="summary-sig-name">getHeight</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.dragon-pysrc.html#Dragon.getHeight">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="FractalZE.fractal.Fractal-class.html">fractal.Fractal</a></code></b>:
+      <code><a href="FractalZE.fractal.Fractal-class.html#graph">graph</a></code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Method Details</span></td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">l</span>=<span class="sig-default">1</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.dragon-pysrc.html#Dragon.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>l</code></strong> (float) - longitud del segmento inicial. Default 1</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="lindenmayer"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">lindenmayer</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.dragon-pysrc.html#Dragon.lindenmayer">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve el fractal del drag&#243;n expresado en L-System</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong> (int) - numero de termino de la sucesion</li>
+    </ul></dd>
+    <dt>Returns: string
+      <p>Algoritmo en L-System.</p>
+      <ul>
+        <li>
+          variables: X Y
+        </li>
+        <li>
+          constantes: F + -
+        </li>
+        <li>
+          axioma: FX
+        </li>
+        <li>
+          reglas:
+          <ol start="1">
+            <li>
+              X -&gt; X+YF+
+            </li>
+            <li>
+              Y -&gt; -FX-Y
+            </li>
+          </ol>
+        </li>
+      </ul>
+      <p>Interpretacion.</p>
+      <ol start="1">
+        <li>
+          Una F significa dibujar
+        </li>
+        <li>
+          Un - significa girar a la izquierda 90 grados
+        </li>
+      </ol>
+      <ol start="2">
+        <li>
+          Un + significa girar a la derecha 90 grados
+        </li>
+      </ol></dt>
+        <dd>fractal del drag&#243;n expresada en L-System.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="FractalZE-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Fri Nov 28 18:59:26 2014
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

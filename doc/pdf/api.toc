@@ -1,0 +1,46 @@
+\contentsline {section}{Contents}{1}{section*.1}
+\contentsline {section}{\numberline {1}Package FractalZE}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Modules}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Variables}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Module FractalZE.arbol}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Variables}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Class Arbol}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Methods}{4}{subsubsection.2.2.1}
+\contentsline {section}{\numberline {3}Module FractalZE.cantor}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Variables}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Class Cantor}{7}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Methods}{7}{subsubsection.3.2.1}
+\contentsline {section}{\numberline {4}Module FractalZE.dragon}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}Variables}{10}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Class Dragon}{10}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Methods}{10}{subsubsection.4.2.1}
+\contentsline {section}{\numberline {5}Module FractalZE.fractal}{12}{section.5}
+\contentsline {subsection}{\numberline {5.1}Variables}{12}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Class Fractal}{12}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Methods}{12}{subsubsection.5.2.1}
+\contentsline {section}{\numberline {6}Module FractalZE.koch}{13}{section.6}
+\contentsline {subsection}{\numberline {6.1}Variables}{13}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Class Koch}{13}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Methods}{13}{subsubsection.6.2.1}
+\contentsline {section}{\numberline {7}Module FractalZE.pascal}{16}{section.7}
+\contentsline {subsection}{\numberline {7.1}Variables}{16}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Class Pascal}{16}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Methods}{16}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Instance Variables}{17}{subsubsection.7.2.2}
+\contentsline {section}{\numberline {8}Module FractalZE.quintoCantor}{18}{section.8}
+\contentsline {subsection}{\numberline {8.1}Variables}{18}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Class QuintoCantor}{18}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {8.2.1}Methods}{18}{subsubsection.8.2.1}
+\contentsline {section}{\numberline {9}Module FractalZE.sierpinsky}{20}{section.9}
+\contentsline {subsection}{\numberline {9.1}Variables}{20}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Class Sierpinsky}{20}{subsection.9.2}
+\contentsline {subsubsection}{\numberline {9.2.1}Methods}{20}{subsubsection.9.2.1}
+\contentsline {section}{\numberline {10}Module FractalZE.sierpinskyRectangular}{23}{section.10}
+\contentsline {subsection}{\numberline {10.1}Variables}{23}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Class SierpinskyRectangular}{23}{subsection.10.2}
+\contentsline {subsubsection}{\numberline {10.2.1}Methods}{23}{subsubsection.10.2.1}
+\contentsline {section}{\numberline {11}Module FractalZE.snowflake}{25}{section.11}
+\contentsline {subsection}{\numberline {11.1}Variables}{25}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Class Snowflake}{25}{subsection.11.2}
+\contentsline {subsubsection}{\numberline {11.2.1}Methods}{25}{subsubsection.11.2.1}
+\contentsline {section}{Index}{27}{section*.2}

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>FractalZE.sierpinsky.Sierpinsky</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="FractalZE-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="FractalZE-module.html">Package&nbsp;FractalZE</a> ::
+        <a href="FractalZE.sierpinsky-module.html">Module&nbsp;sierpinsky</a> ::
+        Class&nbsp;Sierpinsky
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="FractalZE.sierpinsky.Sierpinsky-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Sierpinsky</h1><p class="nomargin-top"><span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky">source&nbsp;code</a></span></p>
+<center>
+<center>  <map id="uml_class_diagram_for_fractalz_8" name="uml_class_diagram_for_fractalz_8">
+<area shape="rect" id="node25" href="FractalZE.sierpinsky.Sierpinsky-class.html#__init__" title="FractalZE.sierpinsky.Sierpinsky.__init__" alt="" coords="199,116,348,135"/>
+<area shape="rect" id="node25" href="FractalZE.sierpinsky.Sierpinsky-class.html#countTriangles" title="Devuelve la cantidad de triangulos del termino n." alt="" coords="199,135,348,153"/>
+<area shape="rect" id="node25" href="FractalZE.sierpinsky.Sierpinsky-class.html#triangleArea" title="Devuelve el area ocupada por un solo triangulo del termino n." alt="" coords="199,153,348,172"/>
+<area shape="rect" id="node25" href="FractalZE.sierpinsky.Sierpinsky-class.html#totalArea" title="Devuelve el area total." alt="" coords="199,172,348,191"/>
+<area shape="rect" id="node25" href="FractalZE.sierpinsky.Sierpinsky-class.html#trianglePerimeter" title="Devuelve el perimetro de un triangulo del termino n." alt="" coords="199,191,348,209"/>
+<area shape="rect" id="node25" href="FractalZE.sierpinsky.Sierpinsky-class.html#totalPerimeter" title="Devuelve la suma de los perimetros de todos los triangulos del termino n." alt="" coords="199,209,348,228"/>
+<area shape="rect" id="node25" href="FractalZE.sierpinsky.Sierpinsky-class.html#triangleHeight" title="Devuelve la altura de un triangulo del termino n." alt="" coords="199,228,348,247"/>
+<area shape="rect" id="node25" href="FractalZE.sierpinsky.Sierpinsky-class.html#triangleWidth" title="Devuelve el ancho de un triangulo del termino n." alt="" coords="199,247,348,265"/>
+<area shape="rect" id="node25" href="FractalZE.sierpinsky.Sierpinsky-class.html#getWidth" title="Devuelve el ancho del fractal." alt="" coords="199,265,348,284"/>
+<area shape="rect" id="node25" href="FractalZE.sierpinsky.Sierpinsky-class.html#getHeight" title="Devuelve la altura del fractal." alt="" coords="199,284,348,303"/>
+<area shape="rect" id="node1" href="FractalZE.sierpinsky.Sierpinsky-class.html" title="Fractal o Triangulo de Sierpinsky." alt="" coords="187,83,360,309"/>
+<area shape="rect" id="node3" href="FractalZE.sierpinskyRectangular.SierpinskyRectangular-class.html" title="Sierpisnky rectangulo isosceles." alt="" coords="123,329,424,367"/>
+<area shape="rect" id="node26" href="FractalZE.fractal.Fractal-class.html#graph" title="Grafica el fractal." alt="" coords="17,39,529,57"/>
+<area shape="rect" id="node2" href="FractalZE.fractal.Fractal-class.html" title="FractalZE.fractal.Fractal" alt="" coords="5,6,541,63"/>
+</map>
+  <img src="uml_class_diagram_for_fractalz_8.gif" alt='' usemap="#uml_class_diagram_for_fractalz_8" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<p>Fractal o Triangulo de Sierpinsky. Construccion:</p>
+  <ol start="1">
+    <li>
+      Se parte de un triangulo equilatero.
+    </li>
+    <li>
+      Se divide cada lado en dos obteniendose 3 puntos.
+    </li>
+    <li>
+      Al unir los 3 puntos, el triangulo queda dividido en 4 triangulos.
+    </li>
+    <li>
+      Se descarta el del medio, es decir el que esta invertido.
+    </li>
+    <li>
+      Se repite esto sucesivamente con cada triangulo.
+    </li>
+  </ol>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Instance Methods</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.sierpinsky.Sierpinsky-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">l</span>=<span class="summary-sig-default">1</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.sierpinsky.Sierpinsky-class.html#countTriangles" class="summary-sig-name">countTriangles</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Devuelve la cantidad de triangulos del termino n.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.countTriangles">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.sierpinsky.Sierpinsky-class.html#triangleArea" class="summary-sig-name">triangleArea</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Devuelve el area ocupada por un solo triangulo del termino n.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.triangleArea">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.sierpinsky.Sierpinsky-class.html#totalArea" class="summary-sig-name">totalArea</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Devuelve el area total.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.totalArea">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.sierpinsky.Sierpinsky-class.html#trianglePerimeter" class="summary-sig-name">trianglePerimeter</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Devuelve el perimetro de un triangulo del termino n.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.trianglePerimeter">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.sierpinsky.Sierpinsky-class.html#totalPerimeter" class="summary-sig-name">totalPerimeter</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Devuelve la suma de los perimetros de todos los triangulos del 
+      termino n.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.totalPerimeter">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.sierpinsky.Sierpinsky-class.html#triangleHeight" class="summary-sig-name">triangleHeight</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Devuelve la altura de un triangulo del termino n.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.triangleHeight">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.sierpinsky.Sierpinsky-class.html#triangleWidth" class="summary-sig-name">triangleWidth</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Devuelve el ancho de un triangulo del termino n.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.triangleWidth">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.sierpinsky.Sierpinsky-class.html#getWidth" class="summary-sig-name">getWidth</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Devuelve el ancho del fractal.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.getWidth">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.sierpinsky.Sierpinsky-class.html#getHeight" class="summary-sig-name">getHeight</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Devuelve la altura del fractal.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.getHeight">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="FractalZE.fractal.Fractal-class.html">fractal.Fractal</a></code></b>:
+      <code><a href="FractalZE.fractal.Fractal-class.html#graph">graph</a></code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Method Details</span></td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">l</span>=<span class="sig-default">1</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>l</code></strong> (float) - longitud del lado maximo(cuando n=0).default = 1.</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="countTriangles"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">countTriangles</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.countTriangles">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve la cantidad de triangulos del termino n.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong> (int) - numero de termino de la sucesion</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>cantidad de triangulos.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="triangleArea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">triangleArea</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.triangleArea">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve el area ocupada por un solo triangulo del termino n.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong> (int) - numero de termino de la sucesion</li>
+    </ul></dd>
+    <dt>Returns: float</dt>
+        <dd>area ocupada por un triangulo.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="totalArea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">totalArea</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.totalArea">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve el area total.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong> (int) - numero de termino de la sucesion</li>
+    </ul></dd>
+    <dt>Returns: float</dt>
+        <dd>area total.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="trianglePerimeter"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">trianglePerimeter</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.trianglePerimeter">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve el perimetro de un triangulo del termino n.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong> (int) - numero de termino de la sucesion</li>
+    </ul></dd>
+    <dt>Returns: float</dt>
+        <dd>perimetro de un triangulo.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="totalPerimeter"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">totalPerimeter</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.totalPerimeter">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve la suma de los perimetros de todos los triangulos del termino
+  n.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong> (int) - numero de termino de la sucesion</li>
+    </ul></dd>
+    <dt>Returns: float</dt>
+        <dd>perimetro total.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="triangleHeight"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">triangleHeight</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.triangleHeight">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve la altura de un triangulo del termino n.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong> (int) - numero de termino de la sucesion</li>
+    </ul></dd>
+    <dt>Returns: float</dt>
+        <dd>altura de un triangulo.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="triangleWidth"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">triangleWidth</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.triangleWidth">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve el ancho de un triangulo del termino n.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong> (int) - numero de termino de la sucesion</li>
+    </ul></dd>
+    <dt>Returns: float</dt>
+        <dd>ancho de un triangulo.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getWidth"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getWidth</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.getWidth">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve el ancho del fractal. Siempre es igual a l</p>
+  <dl class="fields">
+    <dt>Returns: float</dt>
+        <dd>ancho del fractal</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getHeight"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getHeight</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.sierpinsky-pysrc.html#Sierpinsky.getHeight">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve la altura del fractal.</p>
+  <dl class="fields">
+    <dt>Returns: float</dt>
+        <dd>ancho del fractal</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="FractalZE-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Fri Nov 28 18:59:27 2014
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

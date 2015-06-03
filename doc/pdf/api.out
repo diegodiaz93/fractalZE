@@ -1,0 +1,46 @@
+\BOOKMARK [1][-]{section*.1}{Contents}{}% 1
+\BOOKMARK [1][-]{section.1}{Package FractalZE}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Modules}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Variables}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Module FractalZE.arbol}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Variables}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Class Arbol}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Methods}{subsection.2.2}% 8
+\BOOKMARK [1][-]{section.3}{Module FractalZE.cantor}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Variables}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Class Cantor}{section.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Methods}{subsection.3.2}% 12
+\BOOKMARK [1][-]{section.4}{Module FractalZE.dragon}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Variables}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Class Dragon}{section.4}% 15
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Methods}{subsection.4.2}% 16
+\BOOKMARK [1][-]{section.5}{Module FractalZE.fractal}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{Variables}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Class Fractal}{section.5}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Methods}{subsection.5.2}% 20
+\BOOKMARK [1][-]{section.6}{Module FractalZE.koch}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{Variables}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Class Koch}{section.6}% 23
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Methods}{subsection.6.2}% 24
+\BOOKMARK [1][-]{section.7}{Module FractalZE.pascal}{}% 25
+\BOOKMARK [2][-]{subsection.7.1}{Variables}{section.7}% 26
+\BOOKMARK [2][-]{subsection.7.2}{Class Pascal}{section.7}% 27
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Methods}{subsection.7.2}% 28
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Instance Variables}{subsection.7.2}% 29
+\BOOKMARK [1][-]{section.8}{Module FractalZE.quintoCantor}{}% 30
+\BOOKMARK [2][-]{subsection.8.1}{Variables}{section.8}% 31
+\BOOKMARK [2][-]{subsection.8.2}{Class QuintoCantor}{section.8}% 32
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Methods}{subsection.8.2}% 33
+\BOOKMARK [1][-]{section.9}{Module FractalZE.sierpinsky}{}% 34
+\BOOKMARK [2][-]{subsection.9.1}{Variables}{section.9}% 35
+\BOOKMARK [2][-]{subsection.9.2}{Class Sierpinsky}{section.9}% 36
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Methods}{subsection.9.2}% 37
+\BOOKMARK [1][-]{section.10}{Module FractalZE.sierpinskyRectangular}{}% 38
+\BOOKMARK [2][-]{subsection.10.1}{Variables}{section.10}% 39
+\BOOKMARK [2][-]{subsection.10.2}{Class SierpinskyRectangular}{section.10}% 40
+\BOOKMARK [3][-]{subsubsection.10.2.1}{Methods}{subsection.10.2}% 41
+\BOOKMARK [1][-]{section.11}{Module FractalZE.snowflake}{}% 42
+\BOOKMARK [2][-]{subsection.11.1}{Variables}{section.11}% 43
+\BOOKMARK [2][-]{subsection.11.2}{Class Snowflake}{section.11}% 44
+\BOOKMARK [3][-]{subsubsection.11.2.1}{Methods}{subsection.11.2}% 45
+\BOOKMARK [1][-]{section*.2}{Index}{}% 46
