@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>FractalZE.snowflake.Snowflake</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="FractalZE-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://github.com/lopezezequiel/fractalZE">fractalZE</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="FractalZE-module.html">Package&nbsp;FractalZE</a> ::
+        <a href="FractalZE.snowflake-module.html">Module&nbsp;snowflake</a> ::
+        Class&nbsp;Snowflake
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="FractalZE.snowflake.Snowflake-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Snowflake</h1><p class="nomargin-top"><span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake">source&nbsp;code</a></span></p>
+<center>
+<center>  <map id="uml_class_diagram_for_fractalz_10" name="uml_class_diagram_for_fractalz_10">
+<area shape="rect" id="node31" href="FractalZE.snowflake.Snowflake-class.html#countSegments" title="Devuelve la cantidad de segmentos del termino n." alt="" coords="201,249,344,268"/>
+<area shape="rect" id="node31" href="FractalZE.snowflake.Snowflake-class.html#totalArea" title="Devuelve el area total debajo de la curva." alt="" coords="201,268,344,287"/>
+<area shape="rect" id="node31" href="FractalZE.snowflake.Snowflake-class.html#getWidth" title="Devuelve el ancho del fractal." alt="" coords="201,287,344,305"/>
+<area shape="rect" id="node31" href="FractalZE.snowflake.Snowflake-class.html#getHeight" title="Devuelve la altura del fractal." alt="" coords="201,305,344,324"/>
+<area shape="rect" id="node1" href="FractalZE.snowflake.Snowflake-class.html" title="Fractal de la bola de nieve." alt="" coords="189,217,355,330"/>
+<area shape="rect" id="node32" href="FractalZE.koch.Koch-class.html#__init__" title="FractalZE.koch.Koch.__init__" alt="" coords="203,116,343,135"/>
+<area shape="rect" id="node32" href="FractalZE.koch.Koch-class.html#lindenmayer" title="Devuelve la curva de koch expresada en L&#45;System" alt="" coords="203,135,343,153"/>
+<area shape="rect" id="node32" href="FractalZE.koch.Koch-class.html#segmentLength" title="Devuelve la longitud de un segmento del termino n." alt="" coords="203,153,343,172"/>
+<area shape="rect" id="node32" href="FractalZE.koch.Koch-class.html#totalLength" title="Devuelve la suma de la longitud de todos los segmentos." alt="" coords="203,172,343,191"/>
+<area shape="rect" id="node2" href="FractalZE.koch.Koch-class.html" title="Fractal de la curva de Koch." alt="" coords="191,83,353,197"/>
+<area shape="rect" id="node33" href="FractalZE.fractal.Fractal-class.html#graph" title="Grafica el fractal." alt="" coords="17,39,529,57"/>
+<area shape="rect" id="node3" href="FractalZE.fractal.Fractal-class.html" title="FractalZE.fractal.Fractal" alt="" coords="5,6,541,63"/>
+</map>
+  <img src="uml_class_diagram_for_fractalz_10.gif" alt='' usemap="#uml_class_diagram_for_fractalz_10" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<p>Fractal de la bola de nieve. Cosntruccion:</p>
+  <ol start="1">
+    <li>
+      Se parte de un triangulo equil&#225;tero.
+    </li>
+    <li>
+      Se divide cada segmento en 3 partes iguales.
+    </li>
+    <li>
+      Se construye un triangulo equilatero sobre cada mitad de cada 
+      segmento.
+    </li>
+    <li>
+      Se descartan los segmentos centrales(la base de los triangulo 
+      creados).
+    </li>
+    <li>
+      Se repiten los pasos para cada segmento las veces que se quiera.
+    </li>
+  </ol>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.snowflake.Snowflake-class.html#countSegments" class="summary-sig-name">countSegments</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Devuelve la cantidad de segmentos del termino n.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake.countSegments">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.snowflake.Snowflake-class.html#totalArea" class="summary-sig-name">totalArea</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Devuelve el area total debajo de la curva.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake.totalArea">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.snowflake.Snowflake-class.html#getWidth" class="summary-sig-name">getWidth</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Devuelve el ancho del fractal.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake.getWidth">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.snowflake.Snowflake-class.html#getHeight" class="summary-sig-name">getHeight</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Devuelve la altura del fractal.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake.getHeight">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.snowflake.Snowflake-class.html#_getAxiomaLindenmayer" class="summary-sig-name" onclick="show_private();">_getAxiomaLindenmayer</a>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake._getAxiomaLindenmayer">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="FractalZE.snowflake.Snowflake-class.html#_getInitialGeometry" class="summary-sig-name" onclick="show_private();">_getInitialGeometry</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">n</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake._getInitialGeometry">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="FractalZE.koch.Koch-class.html">koch.Koch</a></code></b>:
+      <code><a href="FractalZE.koch.Koch-class.html#__init__">__init__</a></code>,
+      <code><a href="FractalZE.koch.Koch-class.html#lindenmayer">lindenmayer</a></code>,
+      <code><a href="FractalZE.koch.Koch-class.html#segmentLength">segmentLength</a></code>,
+      <code><a href="FractalZE.koch.Koch-class.html#totalLength">totalLength</a></code>
+      </p>
+    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="FractalZE.koch.Koch-class.html">koch.Koch</a></code></b> (private):
+      <code><a href="FractalZE.koch.Koch-class.html#_generateGeometry" onclick="show_private();">_generateGeometry</a></code>
+      </p></div>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="FractalZE.fractal.Fractal-class.html">fractal.Fractal</a></code></b>:
+      <code><a href="FractalZE.fractal.Fractal-class.html#graph">graph</a></code>
+      </p>
+    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="FractalZE.fractal.Fractal-class.html">fractal.Fractal</a></code></b> (private):
+      <code><a href="FractalZE.fractal.Fractal-class.html#_drawGeometry" onclick="show_private();">_drawGeometry</a></code>
+      </p></div>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="countSegments"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">countSegments</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake.countSegments">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve la cantidad de segmentos del termino n.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong> (int) - numero de termino de la sucesion</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>cantidad de segmentos.</dd>
+    <dt>Overrides:
+        <a href="FractalZE.koch.Koch-class.html#countSegments">koch.Koch.countSegments</a>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="totalArea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">totalArea</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake.totalArea">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve el area total debajo de la curva.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong> (int) - numero de termino de la sucesion</li>
+    </ul></dd>
+    <dt>Returns: float</dt>
+        <dd>area total debajo de la curva.</dd>
+    <dt>Overrides:
+        <a href="FractalZE.koch.Koch-class.html#totalArea">koch.Koch.totalArea</a>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getWidth"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getWidth</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake.getWidth">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve el ancho del fractal.</p>
+  <dl class="fields">
+    <dt>Returns: float</dt>
+        <dd>ancho del fractal</dd>
+    <dt>Overrides:
+        <a href="FractalZE.koch.Koch-class.html#getWidth">koch.Koch.getWidth</a>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getHeight"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getHeight</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake.getHeight">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Devuelve la altura del fractal.</p>
+  <dl class="fields">
+    <dt>Returns: float</dt>
+        <dd>altura del fractal</dd>
+    <dt>Overrides:
+        <a href="FractalZE.koch.Koch-class.html#getHeight">koch.Koch.getHeight</a>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_getAxiomaLindenmayer"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_getAxiomaLindenmayer</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake._getAxiomaLindenmayer">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Overrides:
+        <a href="FractalZE.koch.Koch-class.html#_getAxiomaLindenmayer" onclick="show_private();">koch.Koch._getAxiomaLindenmayer</a>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_getInitialGeometry"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_getInitialGeometry</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="FractalZE.snowflake-pysrc.html#Snowflake._getInitialGeometry">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Overrides:
+        <a href="FractalZE.koch.Koch-class.html#_getInitialGeometry" onclick="show_private();">koch.Koch._getInitialGeometry</a>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="FractalZE-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://github.com/lopezezequiel/fractalZE">fractalZE</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Jun  8 00:27:00 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

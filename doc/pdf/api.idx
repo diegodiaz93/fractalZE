@@ -1,0 +1,82 @@
+\indexentry{FractalZE \textit{(package)}|(hyperpage}{3}
+\indexentry{FractalZE \textit{(package)}|)}{3}
+\indexentry{FractalZE \textit{(package)}!FractalZE.arbol \textit{(module)}|(hyperpage}{4}
+\indexentry{FractalZE \textit{(package)}!FractalZE.arbol \textit{(module)}!FractalZE.arbol.Arbol \textit{(class)}|(hyperpage}{4}
+\indexentry{FractalZE \textit{(package)}!FractalZE.arbol \textit{(module)}!FractalZE.arbol.Arbol \textit{(class)}!FractalZE.arbol.Arbol.\_\_init\_\_ \textit{(method)}|hyperpage}{4}
+\indexentry{FractalZE \textit{(package)}!FractalZE.arbol \textit{(module)}!FractalZE.arbol.Arbol \textit{(class)}!FractalZE.arbol.Arbol.segmentLength \textit{(method)}|hyperpage}{4}
+\indexentry{FractalZE \textit{(package)}!FractalZE.arbol \textit{(module)}!FractalZE.arbol.Arbol \textit{(class)}!FractalZE.arbol.Arbol.countSegments \textit{(method)}|hyperpage}{4}
+\indexentry{FractalZE \textit{(package)}!FractalZE.arbol \textit{(module)}!FractalZE.arbol.Arbol \textit{(class)}!FractalZE.arbol.Arbol.totalLength \textit{(method)}|hyperpage}{5}
+\indexentry{FractalZE \textit{(package)}!FractalZE.arbol \textit{(module)}!FractalZE.arbol.Arbol \textit{(class)}!FractalZE.arbol.Arbol.lindenmayer \textit{(method)}|hyperpage}{5}
+\indexentry{FractalZE \textit{(package)}!FractalZE.arbol \textit{(module)}!FractalZE.arbol.Arbol \textit{(class)}!FractalZE.arbol.Arbol.getHeight \textit{(method)}|hyperpage}{5}
+\indexentry{FractalZE \textit{(package)}!FractalZE.arbol \textit{(module)}!FractalZE.arbol.Arbol \textit{(class)}!FractalZE.arbol.Arbol.getWidth \textit{(method)}|hyperpage}{6}
+\indexentry{FractalZE \textit{(package)}!FractalZE.arbol \textit{(module)}!FractalZE.arbol.Arbol \textit{(class)}|)}{6}
+\indexentry{FractalZE \textit{(package)}!FractalZE.arbol \textit{(module)}|)}{6}
+\indexentry{FractalZE \textit{(package)}!FractalZE.cantor \textit{(module)}|(hyperpage}{7}
+\indexentry{FractalZE \textit{(package)}!FractalZE.cantor \textit{(module)}!FractalZE.cantor.Cantor \textit{(class)}|(hyperpage}{7}
+\indexentry{FractalZE \textit{(package)}!FractalZE.cantor \textit{(module)}!FractalZE.cantor.Cantor \textit{(class)}!FractalZE.cantor.Cantor.\_\_init\_\_ \textit{(method)}|hyperpage}{7}
+\indexentry{FractalZE \textit{(package)}!FractalZE.cantor \textit{(module)}!FractalZE.cantor.Cantor \textit{(class)}!FractalZE.cantor.Cantor.countSegments \textit{(method)}|hyperpage}{7}
+\indexentry{FractalZE \textit{(package)}!FractalZE.cantor \textit{(module)}!FractalZE.cantor.Cantor \textit{(class)}!FractalZE.cantor.Cantor.segmentLength \textit{(method)}|hyperpage}{8}
+\indexentry{FractalZE \textit{(package)}!FractalZE.cantor \textit{(module)}!FractalZE.cantor.Cantor \textit{(class)}!FractalZE.cantor.Cantor.totalLength \textit{(method)}|hyperpage}{8}
+\indexentry{FractalZE \textit{(package)}!FractalZE.cantor \textit{(module)}!FractalZE.cantor.Cantor \textit{(class)}!FractalZE.cantor.Cantor.lindenmayer \textit{(method)}|hyperpage}{8}
+\indexentry{FractalZE \textit{(package)}!FractalZE.cantor \textit{(module)}!FractalZE.cantor.Cantor \textit{(class)}!FractalZE.cantor.Cantor.getWidth \textit{(method)}|hyperpage}{9}
+\indexentry{FractalZE \textit{(package)}!FractalZE.cantor \textit{(module)}!FractalZE.cantor.Cantor \textit{(class)}!FractalZE.cantor.Cantor.getHeight \textit{(method)}|hyperpage}{9}
+\indexentry{FractalZE \textit{(package)}!FractalZE.cantor \textit{(module)}!FractalZE.cantor.Cantor \textit{(class)}|)}{9}
+\indexentry{FractalZE \textit{(package)}!FractalZE.cantor \textit{(module)}|)}{9}
+\indexentry{FractalZE \textit{(package)}!FractalZE.dragon \textit{(module)}|(hyperpage}{10}
+\indexentry{FractalZE \textit{(package)}!FractalZE.dragon \textit{(module)}!FractalZE.dragon.Dragon \textit{(class)}|(hyperpage}{10}
+\indexentry{FractalZE \textit{(package)}!FractalZE.dragon \textit{(module)}!FractalZE.dragon.Dragon \textit{(class)}!FractalZE.dragon.Dragon.\_\_init\_\_ \textit{(method)}|hyperpage}{10}
+\indexentry{FractalZE \textit{(package)}!FractalZE.dragon \textit{(module)}!FractalZE.dragon.Dragon \textit{(class)}!FractalZE.dragon.Dragon.lindenmayer \textit{(method)}|hyperpage}{10}
+\indexentry{FractalZE \textit{(package)}!FractalZE.dragon \textit{(module)}!FractalZE.dragon.Dragon \textit{(class)}!FractalZE.dragon.Dragon.getWidth \textit{(method)}|hyperpage}{11}
+\indexentry{FractalZE \textit{(package)}!FractalZE.dragon \textit{(module)}!FractalZE.dragon.Dragon \textit{(class)}!FractalZE.dragon.Dragon.getHeight \textit{(method)}|hyperpage}{11}
+\indexentry{FractalZE \textit{(package)}!FractalZE.dragon \textit{(module)}!FractalZE.dragon.Dragon \textit{(class)}|)}{11}
+\indexentry{FractalZE \textit{(package)}!FractalZE.dragon \textit{(module)}|)}{11}
+\indexentry{FractalZE \textit{(package)}!FractalZE.fractal \textit{(module)}|(hyperpage}{12}
+\indexentry{FractalZE \textit{(package)}!FractalZE.fractal \textit{(module)}!FractalZE.fractal.Fractal \textit{(class)}|(hyperpage}{12}
+\indexentry{FractalZE \textit{(package)}!FractalZE.fractal \textit{(module)}!FractalZE.fractal.Fractal \textit{(class)}!FractalZE.fractal.Fractal.graph \textit{(method)}|hyperpage}{12}
+\indexentry{FractalZE \textit{(package)}!FractalZE.fractal \textit{(module)}!FractalZE.fractal.Fractal \textit{(class)}|)}{12}
+\indexentry{FractalZE \textit{(package)}!FractalZE.fractal \textit{(module)}|)}{12}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}|(hyperpage}{13}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}!FractalZE.koch.Koch \textit{(class)}|(hyperpage}{13}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}!FractalZE.koch.Koch \textit{(class)}!FractalZE.koch.Koch.\_\_init\_\_ \textit{(method)}|hyperpage}{13}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}!FractalZE.koch.Koch \textit{(class)}!FractalZE.koch.Koch.countSegments \textit{(method)}|hyperpage}{13}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}!FractalZE.koch.Koch \textit{(class)}!FractalZE.koch.Koch.getHeight \textit{(method)}|hyperpage}{13}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}!FractalZE.koch.Koch \textit{(class)}!FractalZE.koch.Koch.getWidth \textit{(method)}|hyperpage}{14}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}!FractalZE.koch.Koch \textit{(class)}!FractalZE.koch.Koch.lindenmayer \textit{(method)}|hyperpage}{14}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}!FractalZE.koch.Koch \textit{(class)}!FractalZE.koch.Koch.segmentLength \textit{(method)}|hyperpage}{14}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}!FractalZE.koch.Koch \textit{(class)}!FractalZE.koch.Koch.totalArea \textit{(method)}|hyperpage}{15}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}!FractalZE.koch.Koch \textit{(class)}!FractalZE.koch.Koch.totalLength \textit{(method)}|hyperpage}{15}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}!FractalZE.koch.Koch \textit{(class)}|)}{15}
+\indexentry{FractalZE \textit{(package)}!FractalZE.koch \textit{(module)}|)}{15}
+\indexentry{FractalZE \textit{(package)}!FractalZE.pascal \textit{(module)}|(hyperpage}{16}
+\indexentry{FractalZE \textit{(package)}!FractalZE.pascal \textit{(module)}!FractalZE.pascal.Pascal \textit{(class)}|(hyperpage}{16}
+\indexentry{FractalZE \textit{(package)}!FractalZE.pascal \textit{(module)}!FractalZE.pascal.Pascal \textit{(class)}!FractalZE.pascal.Pascal.\_\_init\_\_ \textit{(method)}|hyperpage}{16}
+\indexentry{FractalZE \textit{(package)}!FractalZE.pascal \textit{(module)}!FractalZE.pascal.Pascal \textit{(class)}!FractalZE.pascal.Pascal.getWidth \textit{(method)}|hyperpage}{16}
+\indexentry{FractalZE \textit{(package)}!FractalZE.pascal \textit{(module)}!FractalZE.pascal.Pascal \textit{(class)}!FractalZE.pascal.Pascal.getHeight \textit{(method)}|hyperpage}{16}
+\indexentry{FractalZE \textit{(package)}!FractalZE.pascal \textit{(module)}!FractalZE.pascal.Pascal \textit{(class)}|)}{17}
+\indexentry{FractalZE \textit{(package)}!FractalZE.pascal \textit{(module)}|)}{17}
+\indexentry{FractalZE \textit{(package)}!FractalZE.quintoCantor \textit{(module)}|(hyperpage}{18}
+\indexentry{FractalZE \textit{(package)}!FractalZE.quintoCantor \textit{(module)}!FractalZE.quintoCantor.QuintoCantor \textit{(class)}|(hyperpage}{18}
+\indexentry{FractalZE \textit{(package)}!FractalZE.quintoCantor \textit{(module)}!FractalZE.quintoCantor.QuintoCantor \textit{(class)}|)}{19}
+\indexentry{FractalZE \textit{(package)}!FractalZE.quintoCantor \textit{(module)}|)}{19}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}|(hyperpage}{20}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}|(hyperpage}{20}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}!FractalZE.sierpinsky.Sierpinsky.\_\_init\_\_ \textit{(method)}|hyperpage}{20}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}!FractalZE.sierpinsky.Sierpinsky.countTriangles \textit{(method)}|hyperpage}{20}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}!FractalZE.sierpinsky.Sierpinsky.getHeight \textit{(method)}|hyperpage}{20}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}!FractalZE.sierpinsky.Sierpinsky.getWidth \textit{(method)}|hyperpage}{21}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}!FractalZE.sierpinsky.Sierpinsky.totalArea \textit{(method)}|hyperpage}{21}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}!FractalZE.sierpinsky.Sierpinsky.totalPerimeter \textit{(method)}|hyperpage}{21}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}!FractalZE.sierpinsky.Sierpinsky.triangleArea \textit{(method)}|hyperpage}{21}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}!FractalZE.sierpinsky.Sierpinsky.triangleHeight \textit{(method)}|hyperpage}{22}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}!FractalZE.sierpinsky.Sierpinsky.trianglePerimeter \textit{(method)}|hyperpage}{22}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}!FractalZE.sierpinsky.Sierpinsky.triangleWidth \textit{(method)}|hyperpage}{22}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}!FractalZE.sierpinsky.Sierpinsky \textit{(class)}|)}{23}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinsky \textit{(module)}|)}{23}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinskyRectangular \textit{(module)}|(hyperpage}{24}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinskyRectangular \textit{(module)}!FractalZE.sierpinskyRectangular.SierpinskyRectangular \textit{(class)}|(hyperpage}{24}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinskyRectangular \textit{(module)}!FractalZE.sierpinskyRectangular.SierpinskyRectangular \textit{(class)}|)}{25}
+\indexentry{FractalZE \textit{(package)}!FractalZE.sierpinskyRectangular \textit{(module)}|)}{25}
+\indexentry{FractalZE \textit{(package)}!FractalZE.snowflake \textit{(module)}|(hyperpage}{26}
+\indexentry{FractalZE \textit{(package)}!FractalZE.snowflake \textit{(module)}!FractalZE.snowflake.Snowflake \textit{(class)}|(hyperpage}{26}
+\indexentry{FractalZE \textit{(package)}!FractalZE.snowflake \textit{(module)}!FractalZE.snowflake.Snowflake \textit{(class)}|)}{27}
+\indexentry{FractalZE \textit{(package)}!FractalZE.snowflake \textit{(module)}|)}{27}
